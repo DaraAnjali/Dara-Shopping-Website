@@ -1,0 +1,79 @@
+/* Global styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('img/login.avif'); /* Use a similar background */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Login container */
+.login-container {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+    color: #fff;
+}
+
+/* Heading */
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Form labels */
+label {
+    display: block;
+    font-size: 16px;
+    margin: 10px 0 5px;
+}
+
+/* Input fields */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+/* Button */
+button {
+    background-color: #e67e22; /* Inspired by saree's orange color */
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d35400;
+}
+
+/* Signup link */
+p {
+    margin-top: 10px;
+}
+
+p a {
+    color: #ffd700; /* Golden color for elegance */
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
